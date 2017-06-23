@@ -33,7 +33,7 @@ module.exports= ClozeCard;
 // console.log(card2)
 
 //testing
-var card= new ClozeCard("this is how we do it", "how we do");
-console.log(card.partial);
+// var card= new ClozeCard("this is how we do it", "how we do");
+// console.log(card.partial);
 
-console.log(card.clozeArr);	
+// console.log(card.clozeArr);	

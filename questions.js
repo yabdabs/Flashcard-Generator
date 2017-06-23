@@ -1,39 +1,40 @@
-var questions= 
+
+module.exports.questions=
 [
 	{
-		question1:"This is the first question",
+		question:"This is the first question with answer1",
 		answer: "answer1"
 
 	},
 
 	{
-		question2:"This is the first question",
+		question:"This is the second question with answer2",
 		answer: "answer2"
 
 	},
 
 	{
-		question3:"This is the first question",
+		question:"This is the third question with answer3",
 		answer: "answer3"
 
 	},
 
 	{
-		question4:"This is the first question",
+		question:"This is the fourth question with answer4",
 		answer: "answer4"
 
 	},
 
 	{
-		question5:"This is the first question",
+		question:"This is the fifth question with answer5",
 		answer: "answer5"
 
 	},
 
 	{
-		question6:"This is the first question",
+		question:"This is the sixth question with answer6",
 		answer: "answer6"
 
 	},
 
-]
+];
