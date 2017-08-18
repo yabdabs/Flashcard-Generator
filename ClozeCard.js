@@ -1,16 +1,19 @@
 function ClozeCard(fullText, cloze){
 
+	//use partial to eventually make the complete partial sentence
 	var partial= fullText;
 
 	// this.fullArr= fullText.split(" ");
+	//split the cloze term if it's multiple words and store into an array
 	this.clozeArr= cloze.split(" ");
 
 
+	//loop through the clozeArr to replace the cloze word(s) with ...
 	for(var i=0; i<this.clozeArr.length; i++){
 		partial=partial.replace(this.clozeArr[i], "...");
 	}
 
-
+	//check to see if the full sentence actually contains the cloze string
 	if(!fullText.includes(cloze)){
 		console.log("error");
 
